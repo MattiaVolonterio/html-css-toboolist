@@ -83,7 +83,7 @@ ul{
 
 /* CARD */
 
-section{
+.list-section{
     padding-top: 50px;
     padding-left: 80px;
 }
@@ -97,7 +97,7 @@ section{
 }
 
 .list-element{
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 .symbol{
@@ -116,6 +116,11 @@ section{
     color: #5DBDA5;
 }
 
+.cross{
+    border: 1.5px solid #ED746F;
+    color: #ED746F;
+}
+
 .list-text{
     font-size: 1.2rem;
 }
@@ -124,10 +129,25 @@ section{
     display: inline-block;
     width: 100px;
     height: 30px;
-    background-color: #45ABEA;
     color: white;
     text-align: center;
     line-height: 30px;
     border-radius: 20px;
     margin-left: 5px;
+}
+
+.editorial{
+    background-color: #45ABEA;
+}
+
+.goals{
+    background-color: #9C72E4;
+}
+
+.recruiting{
+    background-color: #63C0A9;
+}
+
+.mobile{
+    background-color: #F29E33;
 }
