@@ -9,7 +9,7 @@
 /* GENERAL */
 
 body{
-    background-color: aqua;
+    background-color: #F7F8F9;
 }
 
 ul{
@@ -44,7 +44,7 @@ ul{
 
 .card-container{
     width: 1000px;
-    height: 1000px;
+    padding-bottom: 40px;
     margin: 70px auto;
     border-radius: 10px;
     background-color: #FFFFFF;
