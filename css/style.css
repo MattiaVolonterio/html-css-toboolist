@@ -75,6 +75,10 @@ ul{
     margin-right: 5px;
 }
 
+.add-task:hover{
+    cursor: pointer;
+}
+
 .add-section{
     width: 130px;
     border: 1px solid #CFD4D8;
