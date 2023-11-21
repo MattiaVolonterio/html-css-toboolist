@@ -35,3 +35,44 @@ body{
     font-size: 2.8rem;
     font-family: sans-serif;
 }
+
+/* MAIN */
+
+.container{
+    width: 1000px;
+    height: 1000px;
+    margin: 70px auto;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+/* CARD HEADER */
+
+.card-header{
+    height: 85px;
+    padding-top: 30px;
+    padding-left: 80px;
+    border-bottom: 1px solid #CFD4D8;
+}
+
+.button-style{
+    height: 35px;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.add-task{
+    width: 100px;
+    background-color: #48ADF1;
+    border: 1px solid #48ADF1;
+    color: white;
+    margin-right: 5px;
+}
+
+.add-section{
+    width: 130px;
+    border: 1px solid #CFD4D8;
+    color: #CFD4D8;
+}
