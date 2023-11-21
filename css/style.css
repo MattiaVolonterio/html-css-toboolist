@@ -12,6 +12,10 @@ body{
     background-color: aqua;
 }
 
+ul{
+    list-style: none;
+}
+
 /* HEADER */
 
 .page-header{
@@ -38,7 +42,7 @@ body{
 
 /* MAIN */
 
-.container{
+.card-container{
     width: 1000px;
     height: 1000px;
     margin: 70px auto;
@@ -75,4 +79,55 @@ body{
     width: 130px;
     border: 1px solid #CFD4D8;
     color: #CFD4D8;
+}
+
+/* CARD */
+
+section{
+    padding-top: 50px;
+    padding-left: 80px;
+}
+
+/* LIST */
+
+.list-title{
+    font-style: normal;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.list-element{
+    margin: 10px 0;
+}
+
+.symbol{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.check{
+    border: 1.5px solid #5DBDA5;
+    color: #5DBDA5;
+}
+
+.list-text{
+    font-size: 1.2rem;
+}
+
+.label{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    background-color: #45ABEA;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 20px;
+    margin-left: 5px;
 }
